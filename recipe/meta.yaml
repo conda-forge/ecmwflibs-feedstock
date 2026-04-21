@@ -1,5 +1,5 @@
 {% set name = "ecmwflibs" %}
-{% set version = "0.6.3" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ecmwf/ecmwflibs/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 5e1e5a665cae9a94d846f7035253ddeb4b15bbb4d2e46cc91ed6975331f4d7bd
+  sha256: 34763a2c6e0c002baf155a9d4a14d92b5243aa9b6509b4292c59d59c01a5934c
   patches:
     - find_conda_libs.diff
 
