@@ -12,6 +12,7 @@ source:
     - find_conda_libs.diff
 
 build:
+  skip: true  # [win]
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
 
